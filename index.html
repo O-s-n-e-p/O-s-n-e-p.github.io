@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preload" href="images/aLNsgT.png" as="image">
+    <link rel="preload" href="images/spirited1.jpg" as="image">
+    <link rel="preload" href="images/logo.png" as="image">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Osnep's Enclave</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="icon" type="image/png" href="webpage ICON ADDDDDD" sizes="96x96"> -->
+    
+    <link rel="stylesheet" href="Archive_files/main.css">
+    <style>
+      .styled-containers-spaced p,
+      .styled-containers-headers p {
+        margin: 8px 5px 0px 5px;
+      }
+      .gallery-articles h2 {
+        margin-bottom: 5px;
+      }
+      .gallery-containers a {
+        min-height: 0 !important;
+      }
+      .gallery-containers a:hover {
+        transform: scale(1.02);
+        transition-duration: 0.3s;
+      }
+      .gallery-containers img {
+        background: #121313;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+        overflow: hidden;
+        aspect-ratio: 4 / 3;
+        transition-duration: 0.3s;
+      }
+      /* Responsiveness */
+      @media (min-width: 0px) {
+        .gallery-images-containers {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+      @media (min-width: 700px) {
+        .gallery-images-containers {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="websiteContainer">
+      <!-- Spacer -->
+      <div class="website-spacers"></div>
+      <!-- Header -->
+      <header id="mainHeader">
+        <div class="header-logo-text">
+          <a href="index.html" title="Back to Home"><img src="Archive_files/logo.png" id="logo" alt="My Logo"></a>
+          <div class="header-text">
+            <span class="header-title aero-glow">Osnep's Enclave</span>
+            <span class="header-motto">
+              sh-sha!
+            </span>
+          </div>
+        </div>
+        <div class="toggle-buttons-divs">
+          <span id="hideNavbarButtonText">Menu &gt;</span>
+          <img src="Archive_files/navbar_button.png" alt="Toggle Menu Button" id="navbarToggleButton">
+        </div>
+      </header>
+      <div id="navAndContentContainer">
+        <!-- Left Side -->
+        <aside>
+          <div id="navigationMenu">
+            <!-- General -->
+            <nav class="nav-categories" aria-label="Navigation Category: Main Content">
+              <span class="navbar-titles">General</span>
+
+              <a href="./index.html" class="nav-active">
+                <img src="Archive_files/netprof_3006.ico" class="nav-icons" alt="House">Home</a>
+
+              <a href="./aboutMe.html" class="nav-inactive">
+                <img src="Archive_files/WinCal_122.ico" class="nav-icons" alt="person">About me</a>
+
+              <a href="./my_things.html" class="nav-inactive">
+                <img src="Archive_files/oobefldr_107.ico" class="nav-icons" alt="shopping bag">My Things</a>
+
+              <a href="./projects.html" class="nav-inactive">
+                <img src="Archive_files/imageres_123.ico" class="nav-icons" alt="portfolio">Projects</a>
+            </nav>
+            <!-- Copes -->
+            <nav class="nav-categories" aria-label="Navigation Category: Entertainment">
+              <span class="navbar-titles">Copes</span>
+
+              <a href="./gaming.html" class="nav-inactive">
+                <img src="Archive_files/joy_102.ico" class="nav-icons" alt="controller">Gaming</a>
+
+              <a href="./reading.html" class="nav-inactive">
+                <img src="Archive_files/oobefldr_0.ico" class="nav-icons" alt="book">Reading</a>
+
+              <a href="./small_motors.html" class="nav-inactive">
+                <img src="Archive_files/perfmon_105.ico" class="nav-icons" alt="speed">Small Motors</a>
+
+              <a href="./outdoors.html" class="nav-inactive">
+                <img src="Archive_files/aero_webring.png" class="nav-icons" alt="outside">Outdoors</a>
+
+              <a href="./music.html" class="nav-inactive">
+                <img src="Archive_files/networkexplorer_120.ico" class="nav-icons" alt="music">Music</a>
+
+              <a href="./movies_shows.html" class="nav-inactive">
+                <img src="Archive_files/oobefldr_106.ico" class="nav-icons" alt="Movie Reel Icon">Movies/TV Shows</a>
+
+              <a href="./buddhism.html" class="nav-inactive">
+                <img src="Archive_files/imageres_82.ico" class="nav-icons" alt="the key">Buddhism</a>
+
+            </nav>
+            <!-- Journals -->
+            <nav class="nav-categories" aria-label="Navigation Category: Community">
+              <span class="navbar-titles">Journals</span>
+
+              <a href="./introspection.html" class="nav-inactive">
+                <img src="Archive_files/oobefldr_4.ico" class="nav-icons" alt="Finding myself">Introspection</a>
+
+
+
+              <a href="./goals.html" class="nav-inactive">
+                <img src="Archive_files/WinCal_100.ico" class="nav-icons" alt="calendar">Goals</a>
+
+             
+
+
+
+            </nav>
+            <!-- Media -->
+            <nav class="nav-categories" aria-label="Navigation Category: Website">
+              <span class="navbar-titles">Media</span>
+
+              <a href="./resources.html" class="nav-inactive">
+                <img src="Archive_files/imageres_115.ico" class="nav-icons" alt="star">Resources</a>
+
+              <a href="./memes.html" class="nav-inactive">
+                <img src="Archive_files/Defrag_100.ico" class="nav-icons" alt="meme">Memes</a>
+
+              <a href="./image_dump.html" class="nav-inactive">
+                <img src="Archive_files/imageres_54.ico" class="nav-icons" alt="garb">Image Dump</a>
+
+              <a href="./contact.html" class="nav-inactive">
+                <img src="Archive_files/personal.png" class="nav-icons" alt="Konata">Contact Me</a>
+
+            </nav>
+            
+          </div>
+        </aside>
+
+        <!-- Middle Content -->
+        <main id="mainContent" aria-label="Main Content">
+          <section>
+            <header>
+              <h1 style="font-size:40px;" class="rgb-glow-superfast">Welcome</h1>
+              <div class="glass-borders">
+                <div class="section-banners aero-borders">
+                  <img src="images/spirited1.jpg" width="300" alt="Header Image" title="main" id="introBanner">
+                </div>
+                
+              </div>
+            </header>
+
+            <div class="glass-borders">
+              <article class="styled-containers styled-containers-spaced aero-borders">
+                <p>
+                  Hiya. You're trespassing into my neck of the woods, but don't worry, I won't shoot. 
+                  Chances are if you're here, I directed you to this page to learn more about me, but if I didn't ... well ... then you're one hell of a internet explorer.
+                  Anyways, I use this site to keep track of the things I like and to organize my thoughts. 
+                  I have ADHD so keeping things organized in my head is just impossible.
+                  If you're interested in learning more about me just click the button which says that on the nav panel. 
+                </p>
+
+                
+              </article>
+            </div>
+
+            <div class="glass-borders">
+              <article class="gallery-articles styled-containers styled-containers-spaced aero-borders" aria-label="Gallery with examples of Frutiger Aero">
+                <header>
+                  <h2>Announcements Board/Change Log</h2>
+                  <div class="scroll-box">
+                    <p>7/4/2026: Bug where cursor doesn't auto load upon opening a new html <br></p>
+                    <p>7/4/2026: Happy Indepedance Day to you Americans <br></p>
+                    <p>7/3/2026: Website is still a work in progress <br></p>
+                    <p>7/3/2026: Plan to create Osnep's Enclave MC server</p>
+                  </div>
+
+                </header>
+               
+              </article>
+            </div>
+
+
+
+            <div class="glass-borders">
+              <article class="styled-containers styled-containers-spaced aero-borders">
+                <h2>Credit where credit is due</h2>
+                <p>
+                  All credit for how beautiful the aero theme of this page looks goes to daniele63. <br> Their Personal Site: https://daniele63.com/site_info and the Frutiger Aero Archive this template is from: https://frutigeraeroarchive.org/ <br>
+                  daniele63 you are who I got the inspiration from to create this site, thank you for that.
+                </p>
+
+                
+              </article>
+            </div>
+
+
+
+
+          </section>
+        </main>
+      </div>
+      <!-- Spacer -->
+      <div class="website-spacers"></div>
+    </div>
+    <span id="themeSongCaption" class="hidden"></span>
+    <!-- Javascript -->
+    <script src="Archive_files/navbar.min.js" async=""></script>
+    
+    
+</body></html>

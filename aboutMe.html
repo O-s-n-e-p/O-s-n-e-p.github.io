@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preload" href="images/aLNsgT.png" as="image">
+    <link rel="preload" href="images/spirited1.jpg" as="image">
+    <link rel="preload" href="images/logo.png" as="image">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Osnep's Enclave</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="icon" type="image/png" href="webpage ICON ADDDDDD" sizes="96x96"> -->
+    
+    <link rel="stylesheet" href="Archive_files/main.css">
+    <style>
+      .styled-containers-spaced p,
+      .styled-containers-headers p {
+        margin: 8px 5px 0px 5px;
+      }
+      .gallery-articles h2 {
+        margin-bottom: 5px;
+      }
+      .gallery-containers a {
+        min-height: 0 !important;
+      }
+      .gallery-containers a:hover {
+        transform: scale(1.02);
+        transition-duration: 0.3s;
+      }
+      .gallery-containers img {
+        background: #121313;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+        overflow: hidden;
+        aspect-ratio: 4 / 3;
+        transition-duration: 0.3s;
+      }
+      /* Responsiveness */
+      @media (min-width: 0px) {
+        .gallery-images-containers {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+      @media (min-width: 700px) {
+        .gallery-images-containers {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="websiteContainer">
+      <!-- Spacer -->
+      <div class="website-spacers"></div>
+      <!-- Header -->
+      <header id="mainHeader">
+        <div class="header-logo-text">
+          <a href="index.html" title="Back to Home"><img src="Archive_files/logo.png" id="logo" alt="My Logo"></a>
+          <div class="header-text">
+            <span class="aero-glow header-title">Osnep's Enclave</span>
+            <span class="header-motto">
+              sh-sha!
+            </span>
+          </div>
+        </div>
+        <div class="toggle-buttons-divs">
+          <span id="hideNavbarButtonText">Menu &gt;</span>
+          <img src="Archive_files/navbar_button.png" alt="Toggle Menu Button" id="navbarToggleButton">
+        </div>
+      </header>
+      <div id="navAndContentContainer">
+        <!-- Left Side -->
+        <aside>
+          <div id="navigationMenu">
+            <!-- General -->
+            <nav class="nav-categories" aria-label="Navigation Category: Main Content">
+              <span class="navbar-titles">General</span>
+
+              <a href="./index.html" class="nav-inactive">
+                <img src="Archive_files/netprof_3006.ico" class="nav-icons" alt="House">Home</a>
+
+              <a href="./aboutMe.html" class="nav-active">
+                <img src="Archive_files/WinCal_122.ico" class="nav-icons" alt="person">About me</a>
+
+              <a href="./my_things.html" class="nav-inactive">
+                <img src="Archive_files/oobefldr_107.ico" class="nav-icons" alt="shopping bag">My Things</a>
+
+              <a href="./projects.html" class="nav-inactive">
+                <img src="Archive_files/imageres_123.ico" class="nav-icons" alt="portfolio">Projects</a>
+            </nav>
+            <!-- Copes -->
+            <nav class="nav-categories" aria-label="Navigation Category: Entertainment">
+              <span class="navbar-titles">Copes</span>
+
+              <a href="./gaming.html" class="nav-inactive">
+                <img src="Archive_files/joy_102.ico" class="nav-icons" alt="controller">Gaming</a>
+
+              <a href="./reading.html" class="nav-inactive">
+                <img src="Archive_files/oobefldr_0.ico" class="nav-icons" alt="book">Reading</a>
+
+              <a href="./small_motors.html" class="nav-inactive">
+                <img src="Archive_files/perfmon_105.ico" class="nav-icons" alt="speed">Small Motors</a>
+
+              <a href="./outdoors.html" class="nav-inactive">
+                <img src="Archive_files/aero_webring.png" class="nav-icons" alt="outside">Outdoors</a>
+
+              <a href="./music.html" class="nav-inactive">
+                <img src="Archive_files/networkexplorer_120.ico" class="nav-icons" alt="music">Music</a>
+
+              <a href="./movies_shows.html" class="nav-inactive">
+                <img src="Archive_files/oobefldr_106.ico" class="nav-icons" alt="Movie Reel Icon">Movies/TV Shows</a>
+
+              <a href="./buddhism.html" class="nav-inactive">
+                <img src="Archive_files/imageres_82.ico" class="nav-icons" alt="the key">Buddhism</a>
+
+            </nav>
+            <!-- Journals -->
+            <nav class="nav-categories" aria-label="Navigation Category: Community">
+              <span class="navbar-titles">Journals</span>
+
+              <a href="./introspection.html" class="nav-inactive">
+                <img src="Archive_files/oobefldr_4.ico" class="nav-icons" alt="Finding myself">Introspection</a>
+
+
+
+              <a href="./goals.html" class="nav-inactive">
+                <img src="Archive_files/WinCal_100.ico" class="nav-icons" alt="calendar">Goals</a>
+
+             
+
+
+
+            </nav>
+            <!-- Media -->
+            <nav class="nav-categories" aria-label="Navigation Category: Website">
+              <span class="navbar-titles">Media</span>
+
+              <a href="./resources.html" class="nav-inactive">
+                <img src="Archive_files/imageres_115.ico" class="nav-icons" alt="star">Resources</a>
+
+              <a href="./memes.html" class="nav-inactive">
+                <img src="Archive_files/Defrag_100.ico" class="nav-icons" alt="meme">Memes</a>
+
+              <a href="./image_dump.html" class="nav-inactive">
+                <img src="Archive_files/imageres_54.ico" class="nav-icons" alt="garb">Image Dump</a>
+
+              <a href="./contact.html" class="nav-inactive">
+                <img src="Archive_files/personal.png" class="nav-icons" alt="Konata">Contact Me</a>
+
+            </nav>
+            
+          </div>
+        </aside>
+
+        <!-- Middle Content -->
+        <main id="mainContent" aria-label="Main Content">
+          <section>
+            <header>
+              <h1>About Me</h1>
+              <div class="glass-borders">
+                <div class="section-banners aero-borders">
+                  <img src="images/aboutme.jpg" width="400" alt="Header Image" title="main" id="introBanner">
+                </div>
+              </div>
+            </header>
+
+            <div class="glass-borders">
+              <article class="styled-containers styled-containers-spaced aero-borders">
+                <p>
+                  Hi. I'm a guy who likes to refine his identity. 
+                  As someone of mixed ethnicities, my identity has been something I never really understood.
+                  For much of my life I wasn't even aware of the importance of having some sort of identity to ground yourself in.
+                  This lack of identity and consequentially also lack of belonging tuned me to have a skiddish and anxious nature. 
+                  ...And of course my facial deformity propelled the former and latter to astronomical levels, which just resulted in myriads of more issues. 
+                  (ex. anti-social, poor speech, ..., the list goes on but there's really no need to mention them. Doing so would drag me back into a doomerist state of mind)
+                  I now think on a very individualist level and try to rely on humans as little as possible. I never really got a grasp of friendship, it seems like such an unnatural notion.
+                </p>
+
+                <p>
+                  The Pills (blue, red, black, white):
+                  My deformity never allowed me the luxury of being bluepilled. My classmates simply wouldn't allow it. Ever since I can recall, I knew looks were important.
+                  As a result, I skipped being redpilled too. I always found it to be cringy. 
+                  As so, the first pill I really dwelled on was the black pill. At a young age I had a rudimentary intuition of it; however it was never formalized until I was around 17 and discovered the incels.is wiki. 
+                  I marinated in .is culture for the better half of 4 years. I internalised a lot of doomerism and regurgitated the same "it's over" rhetoric throught that time in my life. 
+                  I realize that it was quite destructive in terms of internalising a lot of hate and promoting a purposeless life of LDARing, but even still, I don't regret going through that phase. 
+                  I do belive that it ultimately enlightened me to things many normies live out their lives oblivious to. Whether this enlightnedment will make me happier or more depressed in the long run is irrelevant since one of my life purposes is to learn learn learn. 
+                  My blackpill days are now behind me though. I am now subscribing to the white pill, the final pill and the superset of all other pills. 
+                  Now being a subsciber to the whitepill I am working on myself by essentially making the most of what God gave me. This may sound like the bluepill but there is one important distinction between the two. That being, the neccecity of being honest with yourself. In the sense, being aware of how your looks will inhibit you from acheving certain things. 
+                  We need to ignore those unachevable things and focus on what we can do. This is essentially stoicism through the lens of the black pill
+                  Addmittedly, I've got a lot to learn about the whitepill. (You can check out the resources page to get educated on the whitepill because I trully belive it to be benefical for those who've digested the blackpill and feel like "it's over".)
+                </p>
+              </article>
+            </div>
+
+            <div class="glass-borders">
+              <article class="gallery-articles styled-containers styled-containers-spaced aero-borders" aria-label="Gallery with examples of Frutiger Aero">
+                <header>
+                  <h2>A Blackpilled view of my Teenage Years</h2>
+                  <p style="margin-bottom: 5px">
+                    15: A Fake High <br>
+                    This was when I first started to get the urges you’d typically get when you hit puberty. Thus far, my life was devoid of any significant interaction from the opposite gender. The disconnection was mutually enjoyed; however, as you’d probably guess this connection became a bubbling one-way artery of desperate need. But I just jumped the gun, anyways, I started to care about what clothes I wore and what hair cut I got and how it was combed. This was all happening just as COVID-19 was beginning to make global news. So to my benefit (foolish of me to think it a benefit) I was able to cover my deformity with a mask. This was all happening at the beginning of my 2nd year at high school so not too many kids in my classes knew how I looked without the mask, especially since I was a quiet kid during my freshman year. To my delight I was able to strike up a conversation with one of the girls in my shop class, and even make one laugh during a science lab. However, it didn’t take long for things to elucidate themselves to me, and the truth would soon devastate the rest of my teenage years.
+                  </p>
+                  <p>
+                    16: Living to Cope <br>
+                    The COVID-19 lockdown which resulted in the temporary closure of schools enabled me to live out my dream lifestyle; playing video games all day; having minimal social interaction; and not having the anxiety of going to any extra-curriculars or attending any social gatherings. It was pure bliss from beginning to end. Online school was a joke and I was able to finish all the work required of me by only investing an hour a day. The rest of the day I’d spend playing 1 of my 3 favorite games at the time, Fortnite, Minecraft, and GTA V. I also really enjoyed the daily 2 hour walks I would go on with my mother and younger brother after lunch. It was always super refreshing to have a discussion with my brother about new strategies or updates in whatever video games we felt like talking about. Man those were good fucking times.
+                  </p>
+                  <p>
+                    17: Utterly Sober <br>
+                    Now the fun was over and I had to start attending school full time again. Most people were still wearing masks, but it also happened to dawn on me that when I wear a mask to cover my deformity, people do not see the real me, I realized that I couldn't bare lying to people about how I looked because deep down, I felt like I didn’t deserve the treatment I was getting. Additionally, sooner or later I’d have to remove the mask. So, one day I decided to ditch the mask completely and see how the world would treat the real me, and boy howdy, was that a day to remember. As a traversed the halls to get to my class not many people paid any attention to me, and I took that as a positive, I am normal yes, that is all I ever wanted to be in life, normal, not some humanoid abomination that people would stare at with a mix of disgust and curiosity. But when I stepped into my class and walked up to the front which is where I sit, I could feel people gazing at me. At first I though, ok maybe it’s only since it was unusual to not wear a mask, but this hope was quicly squandered when some dude just point blank told me how unexpectedly different I look with a smile on his face. I didn’t hate him for saying that, I always appreciated people that speak their mind, it made the truth clear to me, I am ugly. Despite that realization, it took a surprisingly long time for it to sink in, and even then I was partially in denial because of all the times my mother and grandmother called me handsome and what not. Once it did sink in though, I fell into immensely deep depression, I fucking hated my appearance so much and consequently I hated myself too. I always showed up to school 10 minutes early since the hallways were less crowded. During those ten extra minutes, I spent the first few, staring at myself in the washroom mirror wondering why I was cursed to exist as such a hideous specimen. Every lunch break I’d spend rueing my appearance on a secluded staircase. When I got home I’d usually just marinate in my misery until it was dark enough that I could safely go outside for a long walk without being looked upon. I usually cried on these walks, especially when it snowed because of how beautiful it looked. On some days when my parents weren’t home I tried fixing my deformity using a hammer, but that never earned me anything but pain and shame. On a cold January walk, I distinctly remember hot tears running down my cheek as I prayed that the future me would be able to look back at this moment and think it silly how much energy I wasted caring about my appearance. My last year of high school followed similarly although, I had to start caring about my grades since I wanted to go to college for computer science. And so I convinced myself to treat studying how I used to treat video games. At first I had to study in the library because at home I’d easily get distracted by my computer. But, after a month of studying at the library I didn’t even have the urge to play video games anymore, so I transitioned to studying at home which opened up a lot more time for studying. The best part of my senior year of high school was boasting my superior grades to others who also wanted to go to college. Finally came the graduation day, my dad couldn’t make it, and I was perfectly content with that, unfortunately however, my mother insisted on going. While waiting for the graduation ceremony to commence, I already couldn’t wait to get the fucking day done with. Placement was alphabetical, so that’s the only reason I had girls sitting to either side of me. About midway through the ceremony a girl in the row in front of me seemingly turned around, looked at me, smiled, and waved. I suddenly started to feel really dizzy, I have never spoken to that girl wtf was that? I just stared back at her dumbfounded, and she turned around to face the front again. The whole interaction was so surreal, still to this day I’m not sure if I was hallucinating. There’s the chance that it was some kind of sick joke or she was waving to someone behind me too. I ended up leaving the ceremony as soon as I got called up to pickup my certificate. As I was leaving the building I threw my gown and class photo, which was bundled with the certificate, into the first passing trash can in a fit of bitter envy and despair.
+                  </p>
+                  <p>
+                    18: Assimilation into Uglyness <br>
+                    Unbelievably 18 was a great year for me despite not having any social interactions with anyone outside of my immediate family - and even then I didn’t interact with them much either. I was living the life of a University CS student. I managed to squeeze all my courses into a 3 day school week, which left me more time to study by avoiding unnecessary commutes. Some of the courses I took were so damned difficult that they sapped all my energy and attention, leaving me no mental capacity to dwell on my physical shortcomings. That year I had a purpose because my goal was actually possible to achieve with hard-work and determination, unlike my previous goal in life.
+                  </p>
+                  <p>
+                    19: The calm after the storm <br>
+                    My 19th year on earth went the way of my 18th except a lot more laxed. Having aced all my first year CS courses, I was officially enrolled as a CS major. So now all I had to do was pass CS courses, not ace them. This allowed me some leisure time which I decided to spend reading ASOIAF by G.R.R. Martin. Needless to say, Westeros and the lands to its east were a masterpiece of a universe that I escaped to through out my 2nd year at University.
+                  </p>
+                  <p>
+                    20 : A Prod from God <br>
+                    Turning 20 had me stunned with disbelief. I couldn’t belive I wasn’t a teenager anymore, and that a third of my life has already passed. However, a weeks time was able to tend to that disbelief.
+                  </p>
+                </header>
+               
+              </article>
+            </div>
+
+
+            <div class="glass-borders">
+              <article class="gallery-articles styled-containers styled-containers-spaced aero-borders" aria-label="Gallery with examples of Frutiger Aero">
+                <header>
+                  <h2>Aknowledging the Manuresphere</h2>
+                  <p>
+                    You may think that I hate women given the experiences I've had, but I dont.
+                    Throughout high school it wasn't the girls who shamed me for my appearance or shoved me into lockers, it was the guys.
+                    It was those guys who damaged me the most mentally. And my poor mental health is one extra reason I suffer from inceldom.
+                    <br>
+                    Now, I'm not going to deny that current society is set up in a way that advantages them, but this is no reason to dislike them.
+                    Put simply, I hate the game not the player.
+                  </p>
+
+                </header>
+                
+
+                
+               
+              </article>
+            </div>
+          </section>
+        </main>
+      </div>
+      <!-- Spacer -->
+      <div class="website-spacers"></div>
+    </div>
+    <span id="themeSongCaption" class="hidden"></span>
+    <!-- Javascript -->
+    <script src="Archive_files/navbar.min.js" async=""></script>
+    
+
+</body></html>

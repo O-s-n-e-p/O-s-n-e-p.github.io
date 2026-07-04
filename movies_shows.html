@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preload" href="images/aLNsgT.png" as="image">
+    <link rel="preload" href="images/spirited1.jpg" as="image">
+    <link rel="preload" href="images/logo.png" as="image">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Osnep's Enclave</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="icon" type="image/png" href="webpage ICON ADDDDDD" sizes="96x96"> -->
+    
+    <link rel="stylesheet" href="Archive_files/main.css">
+    <style>
+      .styled-containers-spaced p,
+      .styled-containers-headers p {
+        margin: 8px 5px 0px 5px;
+      }
+      .gallery-articles h2 {
+        margin-bottom: 5px;
+      }
+      .gallery-containers a {
+        min-height: 0 !important;
+      }
+      .gallery-containers a:hover {
+        transform: scale(1.02);
+        transition-duration: 0.3s;
+      }
+      .gallery-containers img {
+        background: #121313;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+        overflow: hidden;
+        aspect-ratio: 4 / 3;
+        transition-duration: 0.3s;
+      }
+      /* Responsiveness */
+      @media (min-width: 0px) {
+        .gallery-images-containers {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+      @media (min-width: 700px) {
+        .gallery-images-containers {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="websiteContainer">
+      <!-- Spacer -->
+      <div class="website-spacers"></div>
+      <!-- Header -->
+      <header id="mainHeader">
+        <div class="header-logo-text">
+          <a href="index.html" title="Back to Home"><img src="Archive_files/logo.png" id="logo" alt="My Logo"></a>
+          <div class="header-text">
+            <span class="header-title aero-glow">Osnep's Enclave</span>
+            <span class="header-motto">
+              sh-sha!
+            </span>
+          </div>
+        </div>
+        <div class="toggle-buttons-divs">
+          <span id="hideNavbarButtonText">Menu &gt;</span>
+          <img src="Archive_files/navbar_button.png" alt="Toggle Menu Button" id="navbarToggleButton">
+        </div>
+      </header>
+      <div id="navAndContentContainer">
+        <!-- Left Side -->
+        <aside>
+          <div id="navigationMenu">
+            <!-- General -->
+            <nav class="nav-categories" aria-label="Navigation Category: Main Content">
+              <span class="navbar-titles">General</span>
+
+              <a href="./index.html" class="nav-inactive">
+                <img src="Archive_files/netprof_3006.ico" class="nav-icons" alt="House">Home</a>
+
+              <a href="./aboutMe.html" class="nav-inactive">
+                <img src="Archive_files/WinCal_122.ico" class="nav-icons" alt="person">About me</a>
+
+              <a href="./my_things.html" class="nav-inactive">
+                <img src="Archive_files/oobefldr_107.ico" class="nav-icons" alt="shopping bag">My Things</a>
+
+              <a href="./projects.html" class="nav-inactive">
+                <img src="Archive_files/imageres_123.ico" class="nav-icons" alt="portfolio">Projects</a>
+            </nav>
+            <!-- Copes -->
+            <nav class="nav-categories" aria-label="Navigation Category: Entertainment">
+              <span class="navbar-titles">Copes</span>
+
+              <a href="./gaming.html" class="nav-inactive">
+                <img src="Archive_files/joy_102.ico" class="nav-icons" alt="controller">Gaming</a>
+
+              <a href="./reading.html" class="nav-inactive">
+                <img src="Archive_files/oobefldr_0.ico" class="nav-icons" alt="book">Reading</a>
+
+              <a href="./small_motors.html" class="nav-inactive">
+                <img src="Archive_files/perfmon_105.ico" class="nav-icons" alt="speed">Small Motors</a>
+
+              <a href="./outdoors.html" class="nav-inactive">
+                <img src="Archive_files/aero_webring.png" class="nav-icons" alt="outside">Outdoors</a>
+
+              <a href="./music.html" class="nav-inactive">
+                <img src="Archive_files/networkexplorer_120.ico" class="nav-icons" alt="music">Music</a>
+
+              <a href="./movies_shows.html" class="nav-active">
+                <img src="Archive_files/oobefldr_106.ico" class="nav-icons" alt="Movie Reel Icon">Movies/TV Shows</a>
+
+              <a href="./buddhism.html" class="nav-inactive">
+                <img src="Archive_files/imageres_82.ico" class="nav-icons" alt="the key">Buddhism</a>
+
+            </nav>
+            <!-- Journals -->
+            <nav class="nav-categories" aria-label="Navigation Category: Community">
+              <span class="navbar-titles">Journals</span>
+
+              <a href="./introspection.html" class="nav-inactive">
+                <img src="Archive_files/oobefldr_4.ico" class="nav-icons" alt="Finding myself">Introspection</a>
+
+
+
+              <a href="./goals.html" class="nav-inactive">
+                <img src="Archive_files/WinCal_100.ico" class="nav-icons" alt="calendar">Goals</a>
+
+             
+
+
+
+            </nav>
+            <!-- Media -->
+            <nav class="nav-categories" aria-label="Navigation Category: Website">
+              <span class="navbar-titles">Media</span>
+
+              <a href="./resources.html" class="nav-inactive">
+                <img src="Archive_files/imageres_115.ico" class="nav-icons" alt="star">Resources</a>
+
+              <a href="./memes.html" class="nav-inactive">
+                <img src="Archive_files/Defrag_100.ico" class="nav-icons" alt="meme">Memes</a>
+
+              <a href="./image_dump.html" class="nav-inactive">
+                <img src="Archive_files/imageres_54.ico" class="nav-icons" alt="garb">Image Dump</a>
+
+              <a href="./contact.html" class="nav-inactive">
+                <img src="Archive_files/personal.png" class="nav-icons" alt="Konata">Contact Me</a>
+
+            </nav>
+            
+          </div>
+        </aside>
+
+        <!-- Middle Content -->
+        <main id="mainContent" aria-label="Main Content">
+          <section>
+            
+
+            <h1>Shows/Movies I've Watched and Enjoyed</h1>
+              <div class="glass-borders">
+                  <div class="gallery-grid styled-containers aero-borders">
+
+                      <figure class="gallery-item">
+                          <img src="images/kingofthehill.jpg" alt="koth">
+                          <figcaption>King of The Hill (excluding revive which was bad)</figcaption>
+                      </figure>
+
+                      <figure class="gallery-item">
+                          <img src="images/trailerparkboys1999.jpg" alt="tp boys">
+                          <figcaption>Trailer Park Boys (1999)</figcaption>
+                      </figure>
+
+                      <figure class="gallery-item">
+                          <img src="images/cars1.jpg" alt="cars1">
+                          <figcaption>Cars 1</figcaption>
+                      </figure>
+
+                      <figure class="gallery-item">
+                          <img src="images/Cars_2_Poster.jpg" alt="cars 2">
+                          <figcaption>Cars 2</figcaption>
+                      </figure>
+
+                      <figure class="gallery-item">
+                          <img src="images/cars3.jpeg" alt="cars3">
+                          <figcaption>Cars 3</figcaption>
+                      </figure>
+
+                      <figure class="gallery-item">
+                          <img src="images/Planes_Fire_&_Rescue.jpg" alt="Planes">
+                          <figcaption>Planes Fire & Rescue</figcaption>
+                      </figure>
+
+                      <figure class="gallery-item">
+                          <img src="images/spiritedawayfavmovie.jpg" alt="spirited">
+                          <figcaption>Spirited Away</figcaption>
+                      </figure>
+
+              
+              
+              </div>
+              </div>
+
+
+
+
+
+
+
+              <h1>Movies/Shows I want to watch</h1>
+            
+              <div class="glass-borders">
+                  <div class="gallery-grid styled-containers aero-borders">
+
+                      <figure class="gallery-item">
+                          <img src="images/timebandts.jpg" alt="timebandts">
+                          <figcaption>Time Bandits</figcaption>
+                      </figure>
+
+                      <figure class="gallery-item">
+                          <img src="images/panslabyrinth.jpg" alt="panslabyrinth">
+                          <figcaption>Pan's Labyrinth</figcaption>
+                      </figure>
+
+                      <figure class="gallery-item">
+                          <img src="images/excalibur(1981).jpg" alt="excalibur">
+                          <figcaption>Excalibur (1981)</figcaption>
+                      </figure>
+
+                      <figure class="gallery-item">
+                          <img src="images/honoramoungthieves.jpg" alt="dnd">
+                          <figcaption>Honor Amoung Thieves D&D</figcaption>
+                      </figure>
+
+                      <figure class="gallery-item">
+                          <img src="images/thelastkingdom.jpg" alt="kingdom">
+                          <figcaption>The Last Kingdom</figcaption>
+                      </figure>
+
+                      <figure class="gallery-item">
+                          <img src="images/houseofdragon.jpeg" alt="fireandblood">
+                          <figcaption>House of the Dragon</figcaption>
+                      </figure>
+
+                      
+
+                  </div>
+              </div>
+
+
+
+
+          </section>
+        </main>
+      </div>
+      <!-- Spacer -->
+      <div class="website-spacers"></div>
+    </div>
+    <span id="themeSongCaption" class="hidden"></span>
+    <!-- Javascript -->
+    <script src="Archive_files/navbar.min.js" async=""></script>
+
+</body></html>
