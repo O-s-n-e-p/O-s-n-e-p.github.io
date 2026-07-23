@@ -1,7 +1,7 @@
 // Bottom Taskbar
 class Taskbar extends HTMLElement {
     connectedCallback() {
-        fetch("taskbar.html")
+        fetch("./Shared_btwn_pages_html/taskbar.html")
             .then(res => res.text())
             .then(html => this.innerHTML = html);
     }
@@ -14,7 +14,7 @@ customElements.define("task-bar", Taskbar);
 // Sliding Text at top
 class Slider extends HTMLElement {
     connectedCallback() {
-        fetch("scrollingtext.html")
+        fetch("./Shared_btwn_pages_html/scrollingtext.html")
             .then(res => res.text())
             .then(html => this.innerHTML = html);
     }
