@@ -318,7 +318,7 @@ section h1,
     border: 1px solid rgba(255,255,255,.15);
 
     break-inside: avoid;
-    cursor: pointer;
+    cursor: url("../images/cursor.cur"), auto;
 
     transition: transform .2s ease;
 }
@@ -596,12 +596,7 @@ section h1,
 * {
     cursor: url("../images/cursor.cur"), auto;
 }
-a,
-button,
-input[type="button"],
-input[type="submit"] {
-    cursor: url("../images/cursor.cur"), pointer;
-}
+
 
 
 
