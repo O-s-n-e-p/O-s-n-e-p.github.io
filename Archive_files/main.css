@@ -91,7 +91,7 @@ section h1,
 
 
 
-#mainContent{background:rgba(39,39,39,.5);border-right:1px solid #3b3b3b;border-bottom:1px solid #3b3b3b;border-bottom-right-radius:3px;color:#dadada;padding:10px 10px 8px 8px;height:724px}
+#mainContent{background:rgba(39,39,39,.5);border-right:1px solid #3b3b3b;border-bottom:1px solid #3b3b3b;border-bottom-right-radius:3px;color:#dadada;padding:10px 10px 8px 8px;height:724px;width:"100%"}
 
 
 #mainHeader{
