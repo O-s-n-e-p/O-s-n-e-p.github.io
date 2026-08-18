@@ -810,9 +810,6 @@ section h1,
 
 
 
-body {
-    background: url("../images/aLNsgT.png") center center / cover no-repeat fixed;
-}
 
 
 
@@ -1024,5 +1021,280 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#theme-panel {
+    position: fixed;
+
+    left: 2px;
+    bottom: 33px;
+    width: 300px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.76),
+            rgba(22, 19, 19, 0.46)
+        );
+
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+
+    box-shadow:
+        0 4px 15px rgba(0,0,0,.7),
+        inset 0 1px rgba(255,255,255,.3);
+
+    padding: 8px;
+
+    z-index: 10;
+
+    /* Hidden by default */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+}
+
+
+/* Panel is open */
+
+#theme-panel.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+
+/* Header */
+
+.theme-panel-header {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    padding: 6px 8px 10px;
+
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+
+/* Theme buttons */
+
+.theme-option {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 8px;
+
+    margin-top: 6px;
+
+    color: white;
+
+    background:linear-gradient(to bottom,#bebebe 0,#777 3%,#232323 55%,#000 55%,#161616 98%,#000 100%);
+
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+
+/* Hover */
+
+.theme-option:hover {
+    animation: rgbBorder 1s linear infinite;
+}
+
+
+/* Preview square */
+
+.wallpaper-preview {
+    width: 55px;
+    height: 35px;
+
+    flex-shrink: 0;
+
+    border-radius: 4px;
+
+    border: 1px solid rgba(255,255,255,.4);
+
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.4);
+}
+
+.mouse-preview {
+    width: 45px;
+    height: 35px;
+
+    flex-shrink: 0;
+
+    border-radius: 4px;
+
+    border: 1px solid rgba(255,255,255,.4);
+
+    box-shadow:
+        inset 0 1px rgba(255,255,255,.4);
+}
+
+
+/* Different previews */
+
+.classic-wallpaper-preview {
+    background-image: url("../images/aLNsgT.png");
+    background-size: contain;
+}
+.classic-mouse-preview {
+    background:
+        linear-gradient(
+            to bottom,
+            #777,
+            #292929
+        );
+}
+
+
+.newyears-wallpaper-preview {
+    background:
+        linear-gradient(
+            to bottom,
+            #777,
+            #292929
+        );
+}
+.newyears-mouse-preview {
+    background:
+        linear-gradient(
+            to bottom,
+            #777,
+            #292929
+        );
+}
+
+
+/* Text */
+
+.theme-option strong {
+    display: block;
+    font-size: 14px;
+}
+
+.theme-option small {
+    display: block;
+    margin-top: 2px;
+    opacity: .65;
+    font-size: 11px;
+}
+
+
+
+@keyframes rgbBorder {
+    0% {
+        border-color: rgb(255, 0, 0);
+        box-shadow: 0 0 8px rgb(255, 0, 0);
+    }
+
+    16% {
+        border-color: rgb(255, 0, 255);
+        box-shadow: 0 0 8px rgb(255, 0, 255);
+    }
+
+    33% {
+        border-color: rgb(0, 0, 255);
+        box-shadow: 0 0 8px rgb(0, 0, 255);
+    }
+
+    50% {
+        border-color: rgb(0, 255, 255);
+        box-shadow: 0 0 8px rgb(0, 255, 255);
+    }
+
+    66% {
+        border-color: rgb(0, 255, 0);
+        box-shadow: 0 0 8px rgb(0, 255, 0);
+    }
+
+    83% {
+        border-color: rgb(255, 255, 0);
+        box-shadow: 0 0 8px rgb(255, 255, 0);
+    }
+
+    100% {
+        border-color: rgb(255, 0, 0);
+        box-shadow: 0 0 8px rgb(255, 0, 0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body.classic-theme {
+    background-image: url("../images/abdulhamidII.png");
+    cursor: url("../images/cur_files/christmas.cur"), auto;
+
+}
+body.classic-theme *{
+    cursor: url("../images/cur_files/christmas.cur"), auto;
+
+}
+
+body.newyears-theme {
+    background-image: url("../images/abdulhamidII.png");
+}
 
 

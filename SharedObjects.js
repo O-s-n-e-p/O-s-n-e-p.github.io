@@ -33,3 +33,15 @@ class Schedule extends HTMLElement {
     }
 }
 customElements.define("schedule-text", Schedule);
+
+
+
+// Theme Panel
+class ThemePanel extends HTMLElement {
+    connectedCallback() {
+        fetch("/Shared_btwn_pages_html/theme_panel.html")
+            .then(res => res.text())
+            .then(html => this.innerHTML = html);
+    }
+}
+customElements.define("theme-panel", ThemePanel);
