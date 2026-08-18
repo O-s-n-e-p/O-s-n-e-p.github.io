@@ -20,3 +20,16 @@ class Slider extends HTMLElement {
     }
 }
 customElements.define("scrolling-text", Slider);
+
+
+
+
+// Schedule
+class Schedule extends HTMLElement {
+    connectedCallback() {
+        fetch("/Shared_btwn_pages_html/schedule.html")
+            .then(res => res.text())
+            .then(html => this.innerHTML = html);
+    }
+}
+customElements.define("schedule-text", Schedule);
