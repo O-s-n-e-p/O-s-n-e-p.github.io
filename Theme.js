@@ -1,3 +1,4 @@
+// LOADING THEME
 const savedTheme = localStorage.getItem("theme");
 
 if (savedTheme) {
