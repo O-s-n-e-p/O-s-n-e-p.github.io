@@ -1182,30 +1182,48 @@ section h1,
     background-size: contain;
 }
 .classic-mouse-preview {
-    background:
-        linear-gradient(
-            to bottom,
-            #777,
-            #292929
-        );
+    background-image: url("../images/aLNsgT.png");
+    background-size: contain;
 }
 
 
-.newyears-wallpaper-preview {
-    background:
-        linear-gradient(
-            to bottom,
-            #777,
-            #292929
-        );
+.fortnite-wallpaper-preview {
+    background-image: url("../images/wallpapers/fortnite.png");
+    background-size: contain;
 }
-.newyears-mouse-preview {
-    background:
-        linear-gradient(
-            to bottom,
-            #777,
-            #292929
-        );
+.fortnite-mouse-preview {
+    background-image: url("../images/aLNsgT.png");
+    background-size: contain;
+}
+
+
+.minecraft-wallpaper-preview {
+    background-image: url("../images/wallpapers/minecraft.png");
+    background-size: contain;
+}
+.minecraft-mouse-preview {
+    background-image: url("../images/aLNsgT.png");
+    background-size: contain;
+}
+
+
+.halo-wallpaper-preview {
+    background-image: url("../images/wallpapers/halo.jpg");
+    background-size: contain;
+}
+.halo-mouse-preview {
+    background-image: url("../images/aLNsgT.png");
+    background-size: contain;
+}
+
+
+.winter-wallpaper-preview {
+    background-image: url("../images/wallpapers/asoiaf.png");
+    background-size: contain;
+}
+.winter-mouse-preview {
+    background-image: url("../images/aLNsgT.png");
+    background-size: contain;
 }
 
 
@@ -1284,17 +1302,47 @@ section h1,
 
 
 body.classic-theme {
-    background-image: url("../images/abdulhamidII.png");
-    cursor: url("../images/cur_files/christmas.cur"), auto;
-
+    background-image: url("../images/wallpapers/classic.png");
 }
 body.classic-theme *{
+    cursor: url("../images/cur_files/classic.cur"), auto;
+}
+
+
+
+
+
+body.winter-theme {
+    background-image: url("../images/wallpapers/asoiaf.png");
+}
+body.winter-theme *{
+    cursor: url("../images/cur_files/winter.cur"), auto;
+}
+
+
+
+
+body.fortnite-theme {
+    background-image: url("../images/wallpapers/fortnite.png");
+}
+body.fortnite-theme *{
+    cursor: url("../images/cur_files/fortnite.cur"), auto;
+}
+
+
+
+body.halo-theme {
+    background-image: url("../images/wallpapers/halo.jpg");
+}
+body.halo-theme *{
     cursor: url("../images/cur_files/christmas.cur"), auto;
-
-}
-
-body.newyears-theme {
-    background-image: url("../images/abdulhamidII.png");
 }
 
 
+
+body.minecraft-theme {
+    background-image: url("../images/wallpapers/minecraft.png");
+}
+body.minecraft-theme *{
+    cursor: url("../images/cur_files/minecraft.cur"), auto;
+}
