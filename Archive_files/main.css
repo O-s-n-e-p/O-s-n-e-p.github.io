@@ -1286,10 +1286,10 @@ body.minecraft-theme *{
 
 .schedule-content {
     flex: 1;
-
+    font-size: 12px;
     overflow: auto;
 
-    padding: 20px;
+    padding: 10px;
 
     background: transparent;
 }
@@ -1311,7 +1311,7 @@ body.minecraft-theme *{
 .schedule-row {
     display: grid;
 
-    grid-template-columns: 100px repeat(14, minmax(70px, 1fr));
+    grid-template-columns: 100px repeat(8, minmax(60px, 1fr));
 
     min-height: 55px;
 }
@@ -1320,20 +1320,20 @@ body.minecraft-theme *{
 .schedule-cell {
     border: 1px solid rgba(255, 255, 255, 0.3);
 
-    padding: 8px;
-
+    padding: 2px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
 
     color: white;
-
+    white-space: nowrap;
     background: rgba(0, 0, 0, 0.35);
 }
 
 .day-label {
     font-weight: bold;
-
+    
     background: rgba(0, 0, 0, 0.65);
 }
 

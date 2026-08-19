@@ -67,73 +67,36 @@ class Schedule extends HTMLElement {
                         <div class="schedule-row">
 
                             <div class="day-label">
-                                Weekday
+                                
                             </div>
 
                             <div class="schedule-cell">9 AM</div>
                             <div class="schedule-cell">10 AM</div>
                             <div class="schedule-cell">11 AM</div>
-                            <div class="schedule-cell">12 PM</div>
-                            <div class="schedule-cell">1 PM</div>
-                            <div class="schedule-cell">2 PM</div>
-                            <div class="schedule-cell">3 PM</div>
-                            <div class="schedule-cell">4 PM</div>
-                            <div class="schedule-cell">5 PM</div>
-                            <div class="schedule-cell">6 PM</div>
-                            <div class="schedule-cell">7 PM</div>
+                            <div class="schedule-cell">12 - 7 PM</div>
                             <div class="schedule-cell">8 PM</div>
-                            <div class="schedule-cell">9 PM</div>
-                            <div class="schedule-cell">10 PM</div>
+                            <div class="schedule-cell">9 - 10 PM</div>
+                            <div class="schedule-cell">11 PM</div>
+                            <div class="schedule-cell">12 AM</div>
 
                         </div>
 
 
-                        <!-- Saturday -->
+                        <!-- Everyday -->
                         <div class="schedule-row">
 
                             <div class="day-label">
-                                Saturday
+                                Everyday
                             </div>
 
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-
-                        </div>
-
-
-                        <!-- Sunday -->
-                        <div class="schedule-row">
-
-                            <div class="day-label">
-                                Sunday
-                            </div>
-
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell">Wake</div>
+                            <div class="schedule-cell">To-do/Goal List</div>
+                            <div class="schedule-cell">Break fast <br> Meditate</div>
+                            <div class="schedule-cell">To-do/Goal List</div>
+                            <div class="schedule-cell">Meditate <br> Dinner <br> Meditate</div>
+                            <div class="schedule-cell">Brush Teeth <br> Go to Parking lot</div>
+                            <div class="schedule-cell">To-do/Goal List<br>Water Early</div>
+                            <div class="schedule-cell">Sleep</div>
 
                         </div>
 
