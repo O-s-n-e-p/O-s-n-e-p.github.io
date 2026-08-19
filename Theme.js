@@ -6,5 +6,7 @@ if (savedTheme) {
     document.body.classList.add(savedTheme.toLowerCase() + "-theme");
 }
 else {
+    console.log("no in theme.js");
     localStorage.setItem("theme", "classic");
+    document.body.classList.add("classic-theme");
 }
