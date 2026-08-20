@@ -1012,7 +1012,7 @@ section h1,
     background-size: cover;
 }
 .fortnite-mouse-preview {
-    background-image: url("../images/cursor_images/fortnite.png");
+    background-image: url("../images/cursor_images/fortnite.PNG");
     background-size: 90% 100%;
     background-repeat: no-repeat;
 }
@@ -1023,7 +1023,7 @@ section h1,
     background-size: cover;
 }
 .minecraft-mouse-preview {
-    background-image: url("../images/cursor_images/minecraft.png");
+    background-image: url("../images/cursor_images/minecraft.PNG");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
