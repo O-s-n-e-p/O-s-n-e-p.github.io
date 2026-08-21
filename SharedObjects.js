@@ -90,12 +90,12 @@ class Schedule extends HTMLElement {
                             </div>
 
                             <div class="schedule-cell">Wake</div>
-                            <div class="schedule-cell">To-do/Goal List</div>
+                            <div class="schedule-cell">To-do List</div>
                             <div class="schedule-cell">Break fast <br> Meditate</div>
-                            <div class="schedule-cell">To-do/Goal List</div>
+                            <div class="schedule-cell">To-do List</div>
                             <div class="schedule-cell">Meditate <br> Dinner <br> Meditate</div>
                             <div class="schedule-cell">Brush Teeth <br> Go to Parking lot</div>
-                            <div class="schedule-cell">To-do/Goal List<br>Water Early</div>
+                            <div class="schedule-cell">To-do List<br>Water Early</div>
                             <div class="schedule-cell">Sleep</div>
 
                         </div>
@@ -113,7 +113,7 @@ class Schedule extends HTMLElement {
                         <div class="schedule-row">
 
                             <div class="day-label">
-                                Weekday
+                                
                             </div>
 
                             <div class="schedule-cell">9 AM</div>
@@ -123,18 +123,48 @@ class Schedule extends HTMLElement {
                             <div class="schedule-cell">1 PM</div>
                             <div class="schedule-cell">2 PM</div>
                             <div class="schedule-cell">3 PM</div>
-                            <div class="schedule-cell">4 PM</div>
-                            <div class="schedule-cell">5 PM</div>
-                            <div class="schedule-cell">6 PM</div>
-                            <div class="schedule-cell">7 PM</div>
-                            <div class="schedule-cell">8 PM</div>
-                            <div class="schedule-cell">9 PM</div>
-                            <div class="schedule-cell">10 PM</div>
 
                         </div>
 
 
-                        <!-- Saturday -->
+                        <!-- weekday go to school -->
+                        <div class="schedule-row">
+
+                            <div class="day-label">
+                                Commute day
+                            </div>
+
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+
+                        </div>
+
+
+                        <!-- week day no going to school -->
+                        <div class="schedule-row">
+
+                            <div class="day-label">
+                                No commute day
+                            </div>
+
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell"></div>
+
+                        </div>
+
+
+                        <!-- saturday -->
                         <div class="schedule-row">
 
                             <div class="day-label">
@@ -149,30 +179,17 @@ class Schedule extends HTMLElement {
                             <div class="schedule-cell"></div>
                             <div class="schedule-cell"></div>
                             <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
 
                         </div>
 
 
-                        <!-- Sunday -->
+                        <!-- sunday -->
                         <div class="schedule-row">
 
                             <div class="day-label">
                                 Sunday
                             </div>
 
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
                             <div class="schedule-cell"></div>
                             <div class="schedule-cell"></div>
                             <div class="schedule-cell"></div>
