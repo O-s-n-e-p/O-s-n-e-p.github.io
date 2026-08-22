@@ -1140,6 +1140,9 @@ body.classic-theme #vista-taskbar {
         rgba(48,48,62,.90) 100%
     );
 }
+body.classic-theme #start-button img {
+    content: url("../images/start_icons/nobackstart.png");
+}
 
 
     
@@ -1156,6 +1159,9 @@ body.winter-theme #vista-taskbar {
     background-repeat: repeat-x;   /* Tile horizontally */
     background-size: auto 100%;    /* Match the taskbar height */
     background-position: center;
+}
+body.winter-theme #start-button img {
+    content: url("../images/start_icons/winter_start.png");
 }
 
 
@@ -1178,6 +1184,9 @@ body.fortnite-theme #vista-taskbar {
     background-size: auto 100%;    /* Match the taskbar height */
     background-position: center;
 }
+body.fortnite-theme #start-button img {
+    content: url("../images/start_icons/fortnite_start.png");
+}
 
 
 
@@ -1198,6 +1207,9 @@ body.halo-theme #vista-taskbar {
     background-size: auto 100%;    /* Match the taskbar height */
     background-position: center;
 }
+body.halo-theme #start-button img {
+    content: url("../images/start_icons/halo_start.png");
+}
 
 
 
@@ -1212,6 +1224,9 @@ body.minecraft-theme #vista-taskbar {
     background-repeat: repeat-x;   /* Tile horizontally */
     background-size: auto 100%;    /* Match the taskbar height */
     background-position: center;
+}
+body.minecraft-theme #start-button img {
+    content: url("../images/start_icons/minecraft_start.png");
 }
 
 

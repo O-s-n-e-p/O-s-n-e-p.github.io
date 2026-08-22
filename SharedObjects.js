@@ -5,7 +5,7 @@ class Taskbar extends HTMLElement {
         
             <div id="vista-taskbar">
                 <button id="start-button">
-                    <img src="./images/nobackstart.png" alt="">
+                    <img src="./images/start_icons/nobackstart.png" alt="">
                 </button>
 
                 <div id="taskbar-programs">
