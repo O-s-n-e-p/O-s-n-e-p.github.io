@@ -255,6 +255,10 @@ section h1,
     
 }
 
+.song-item audio {
+    margin-left: auto;
+}
+
 .song-thumbnail {
     width: 64px;
     height: 64px;
