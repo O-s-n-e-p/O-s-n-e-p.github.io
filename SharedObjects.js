@@ -13,6 +13,10 @@ class Taskbar extends HTMLElement {
                         <img src="./Archive_files/schedule_icon.png" alt="">
                     </button>
                 </div>
+
+                <div id="taskbar-clock">
+                    <div id="taskbar-time" class="red-glow">2:11 PM</div>
+                </div>
             </div>
         
         

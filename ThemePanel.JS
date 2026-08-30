@@ -63,3 +63,31 @@ document.addEventListener("click", (event) => {
     }
 
 });
+
+
+
+// CLOCK TIME
+function updateTaskbarClock() {
+
+    const now = new Date();
+
+    const time = now.toLocaleTimeString("en-US", {
+        timeZone: "America/New_York",
+        hour: "numeric",
+        minute: "2-digit",
+        hour12: true
+    });
+
+    const date = now.toLocaleDateString("en-US", {
+        timeZone: "America/New_York",
+        month: "numeric",
+        day: "numeric",
+        year: "numeric"
+    });
+
+    document.getElementById("taskbar-time").textContent = time;
+}
+
+updateTaskbarClock();
+
+setInterval(updateTaskbarClock, 1000);
