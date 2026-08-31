@@ -573,12 +573,13 @@ section h1,
 
 
 .scroll-box {
-    height: 50px;
+    height: 66px;
 
     overflow-y: auto;
     overflow-x: hidden;
 
-    padding: 12px;
+    padding-top: 1px; 
+    padding-left: 12px;
 
     background: rgba(15,15,15,.45);
 
@@ -1568,4 +1569,55 @@ body.minecraft-theme #start-button img {
     height: 31px;
 
     display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.marquee {
+    margin-top: 12px;
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee_inner {
+  display: flex;
+  animation: scroll 30s linear infinite;
+}
+
+.marquee_inner img {
+  flex-shrink: 0;
+  margin: 2px;
+}
+
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); } 
 }
