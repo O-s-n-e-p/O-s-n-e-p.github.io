@@ -231,3 +231,19 @@ class ThemePanel extends HTMLElement {
     }
 }
 customElements.define("theme-panel", ThemePanel);
+
+
+
+
+
+
+//Button Bar on right side
+class ButtonBar extends HTMLElement {
+    connectedCallback() {
+        fetch("/Shared_btwn_pages_html/buttonBar.html")
+            .then(res => res.text())
+            .then(html => this.innerHTML = html);
+    }
+}
+customElements.define("button-bar", ButtonBar);
+
