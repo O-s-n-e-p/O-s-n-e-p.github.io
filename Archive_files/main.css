@@ -886,7 +886,6 @@ section h1,
 
 #theme-panel {
     position: fixed;
-
     left: 2px;
     bottom: 33px;
     width: 300px;
@@ -907,7 +906,7 @@ section h1,
 
     padding: 8px;
 
-    z-index: 10;
+    z-index: 9999;
 
     /* Hidden by default */
     opacity: 0;
@@ -922,6 +921,7 @@ section h1,
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+    z-index: 9999;
 }
 
 
@@ -931,9 +931,9 @@ section h1,
     color: white;
     font-size: 16px;
     font-weight: bold;
+    z-index: 9999;
 
     padding: 6px 8px 10px;
-
     border-bottom: 1px solid rgba(255,255,255,.2);
 }
 
@@ -945,7 +945,7 @@ section h1,
     height: 45px;
     display: flex;
     align-items: center;
-
+    z-index: 9999;
     gap: 12px;
 
     padding: 8px;
@@ -968,6 +968,7 @@ section h1,
 
 .theme-option:hover {
     animation: rgbBorder 1s linear infinite;
+    
 }
 
 
@@ -1620,4 +1621,68 @@ body.minecraft-theme #start-button img {
 @keyframes scroll {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#left-gif-area {
+    position: fixed;
+
+    left: 0;
+    top: 38px;
+    bottom: 42px;
+
+    width: 350px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    z-index: 10;
+}
+
+#left-gif-area img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 10px;
 }

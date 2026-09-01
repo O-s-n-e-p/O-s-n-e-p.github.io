@@ -247,3 +247,17 @@ class ButtonBar extends HTMLElement {
 }
 customElements.define("button-bar", ButtonBar);
 
+
+
+
+
+
+//Left GIF area
+class LeftGifs extends HTMLElement {
+    connectedCallback() {
+        fetch("/Shared_btwn_pages_html/leftGifArea.html")
+            .then(res => res.text())
+            .then(html => this.innerHTML = html);
+    }
+}
+customElements.define("leftgif-area", LeftGifs);
