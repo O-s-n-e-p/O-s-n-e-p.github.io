@@ -1,9 +1,11 @@
 // Menu sound effects
 const hoverSound = new Audio("/audio/navigation_soundfx/Select.mp3");
+hoverSound.preload = "auto";
 const clickSound = new Audio("/audio/navigation_soundfx/press.mp3");
+clickSound.preload = "auto";
 
 hoverSound.volume = 0.3;
-clickSound.volume = 0.3;
+clickSound.volume = 0.4;
 
 
 // HOVER SOUND
