@@ -82,7 +82,9 @@ section h1,
 .nav-icons{height:21px;margin:1px 4px;z-index:1}
 .nav-active,.nav-inactive{border:1px solid #0f0f0f;border-radius:5px;color:#eee;display:flex;align-items:center;margin:auto auto 1px;width:93%;font-size:12.5px;position:relative}
 #navigationMenu div,.gallery-containers a{align-items:center;display:flex}
-.nav-active{background:linear-gradient(to bottom,rgba(255,255,255,.25) 0,rgba(255,117,117,.2) 20%,rgba(92,92,92,.2) 40%,rgba(100,0,0,.3) 40%,rgba(255,43,43,.9) 100%)!important;color:#ff5757;transform:scale(1.03)}
+
+/* .nav-active{background:linear-gradient(to bottom,rgba(255,255,255,.25) 0,rgba(255,117,117,.2) 20%,rgba(92,92,92,.2) 40%,rgba(100,0,0,.3) 40%,rgba(255,43,43,.9) 100%)!important;color:#ff5757;transform:scale(1.03)} */
+
 .nav-inactive{background:linear-gradient(to bottom,rgba(255,255,255,.25) 0,rgba(117,117,117,.15) 20%,rgba(92,92,92,.15) 60%,rgba(0,0,0,.3) 60%,rgba(41,41,41,.3) 100%)}
 .nav-inactive:hover{background:linear-gradient(to bottom,rgba(255,255,255,.25) 0,rgba(117,117,117,.2) 20%,rgba(92,92,92,.2) 50%,rgba(43,43,43,.3) 50%,rgba(161,161,161,.3) 100%);transform:scale(1.03)}
 .nav-active:before,.nav-inactive:before{background:linear-gradient(to bottom,rgba(117,117,117,.7) 0,rgba(255,255,255,.1) 100%);border-radius:20px;position:absolute;content:"";height:11px;width:90%;top:0;left:5%;opacity:.3}
@@ -1140,6 +1142,9 @@ section h1,
 body.classic-theme {
     background-image: url("../images/wallpapers/classic.png");
 }
+html,
+body,
+body.classic-theme,
 body.classic-theme *{
     cursor: url("../images/cur_files/classic.cur"), auto;
 }
@@ -1157,6 +1162,12 @@ body.classic-theme #start-button img {
     height: 37px;
     width: 37px;
 }
+body.classic-theme .nav-active {
+    background:linear-gradient(to bottom,rgba(255,255,255,.25) 0,rgba(255,117,117,.2) 20%,rgba(92,92,92,.2) 40%,rgba(100,0,0,.3) 40%,rgba(255,43,43,.9) 100%)!important;
+    color:#ff5757;
+    transform:scale(1.03);
+}
+
 
 
     
@@ -1165,6 +1176,9 @@ body.classic-theme #start-button img {
 body.winter-theme {
     background-image: url("../images/wallpapers/asoiaf.png");
 }
+html,
+body,
+body.winter-theme,
 body.winter-theme *{
     cursor: url("../images/cur_files/winter.cur"), auto;
 }
@@ -1179,6 +1193,12 @@ body.winter-theme #start-button img {
     height: 37px;
     width: 37px;
 }
+body.winter-theme .nav-active {
+    background:linear-gradient(to bottom,rgba(255, 255, 255, 0.25) 0,rgba(117, 204, 255, 0.2) 20%,rgba(92, 92, 92, 0.2) 40%,rgba(0, 85, 100, 0.3) 40%,rgba(43, 213, 255, 0.9) 100%)!important;
+    color:#57cfff;
+    transform:scale(1.03);
+}
+
 
 
 
@@ -1191,6 +1211,9 @@ body.fortnite-theme {
     background-size: 100vw 100vh; 
     background-repeat: no-repeat;
 }
+html,
+body,
+body.fortnite-theme,
 body.fortnite-theme *{
     cursor: url("../images/cur_files/fortnite.cur"), auto;
 }
@@ -1205,6 +1228,14 @@ body.fortnite-theme #start-button img {
     height: 37px;
     width: 37px;
 }
+body.fortnite-theme .nav-active {
+    background:linear-gradient(to bottom,rgba(247, 247, 248, 0.25) 0,rgba(181, 117, 255, 0.2) 20%,rgba(97, 96, 97, 0.2) 40%,rgba(52, 0, 100, 0.3) 40%,rgba(153, 43, 255, 0.9) 100%)!important;
+    color:#8957ff;
+    transform:scale(1.03);
+}
+
+
+
 
 
 
@@ -1216,6 +1247,9 @@ body.halo-theme {
     background-size: 100vw 100vh; 
     background-repeat: no-repeat;
 }
+html,
+body,
+body.halo-theme,
 body.halo-theme *{
     cursor: url("../images/cur_files/halo.cur"), auto;
 }
@@ -1230,12 +1264,22 @@ body.halo-theme #start-button img {
     height: 37px;
     width: 37px;
 }
+body.halo-theme .nav-active {
+    background:linear-gradient(to bottom,rgba(243, 245, 243, 0.25) 0,rgba(160, 243, 112, 0.2) 20%,rgba(105, 107, 104, 0.2) 40%,rgba(38, 94, 1, 0.3) 40%,rgba(63, 248, 39, 0.9) 100%)!important;
+    color:#65ff57;
+    transform:scale(1.03);
+}
+
+
 
 
 
 body.minecraft-theme {
     background-image: url("../images/wallpapers/minecraft.png");
 }
+html,
+body,
+body.minecraft-theme,
 body.minecraft-theme *{
     cursor: url("../images/cur_files/minecraft.cur"), auto;
 }
@@ -1249,6 +1293,11 @@ body.minecraft-theme #start-button img {
     content: url("../images/start_icons/minecraft_start.png");
     height: 37px;
     width: 37px;
+}
+body.minecraft-theme .nav-active {
+    background:linear-gradient(to bottom,rgba(157, 158, 157, 0.25) 0,rgba(83, 128, 58, 0.2) 20%,rgba(63, 65, 63, 0.2) 40%,rgba(24, 59, 1, 0.3) 40%,rgba(30, 126, 17, 0.9) 100%)!important;
+    color:#5be44e;
+    transform:scale(1.03);
 }
 
 
