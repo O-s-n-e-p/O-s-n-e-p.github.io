@@ -35,22 +35,22 @@ document.addEventListener("click", (event) => {
         
 
         if (theme === "classic") {
-            document.documentElement.classList.add("classic-theme");
+            document.body.classList.add("classic-theme");
         }
         else if (theme === "winter") {
-            document.documentElement.classList.add("winter-theme");
+            document.body.classList.add("winter-theme");
         }
         else if (theme === "fortnite") {
-            document.documentElement.classList.add("fortnite-theme");
+            document.body.classList.add("fortnite-theme");
         }
         else if (theme === "halo") {
-            document.documentElement.classList.add("halo-theme");
+            document.body.classList.add("halo-theme");
         }
         else if (theme === "minecraft") {
-            document.documentElement.classList.add("minecraft-theme");
+            document.body.classList.add("minecraft-theme");
         }
         if(oldTheme !== theme) {
-            document.documentElement.classList.remove(oldTheme+"-theme");
+            document.body.classList.remove(oldTheme+"-theme");
         }
         return;
     }

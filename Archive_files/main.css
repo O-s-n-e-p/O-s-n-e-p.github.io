@@ -1139,14 +1139,14 @@ section h1,
 
 
 
-html.classic-theme {
+body.classic-theme {
     background-image: url("../images/wallpapers/classic.png");
 }
-html.classic-theme,
-html.classic-theme *{
+body.classic-theme,
+body.classic-theme *{
     cursor: url("../images/cur_files/classic.cur"), auto;
 }
-html.classic-theme #vista-taskbar {
+body.classic-theme #vista-taskbar {
     background: linear-gradient(
         to bottom,
         rgba(170,165,200,.55) 0%,
@@ -1155,12 +1155,12 @@ html.classic-theme #vista-taskbar {
         rgba(48,48,62,.90) 100%
     );
 }
-html.classic-theme #start-button img {
+body.classic-theme #start-button img {
     content: url("../images/start_icons/nobackstart.png");
     height: 37px;
     width: 37px;
 }
-html.classic-theme .nav-active {
+body.classic-theme .nav-active {
     background:linear-gradient(to bottom,rgba(255,255,255,.25) 0,rgba(255,117,117,.2) 20%,rgba(92,92,92,.2) 40%,rgba(100,0,0,.3) 40%,rgba(255,43,43,.9) 100%)!important;
     color:#ff5757;
     transform:scale(1.03);
@@ -1171,25 +1171,25 @@ html.classic-theme .nav-active {
     
 
 
-html.winter-theme {
+body.winter-theme {
     background-image: url("../images/wallpapers/asoiaf.png");
 }
-html.winter-theme,
-html.winter-theme *{
+body.winter-theme,
+body.winter-theme *{
     cursor: url("../images/cur_files/winter.cur"), auto;
 }
-html.winter-theme #vista-taskbar {
+body.winter-theme #vista-taskbar {
     background-image: url("../images/taskbar_textures/wintertaskbar2.jpg");
     background-repeat: repeat-x;   /* Tile horizontally */
     background-size: auto 100%;    /* Match the taskbar height */
     background-position: center;
 }
-html.winter-theme #start-button img {
+body.winter-theme #start-button img {
     content: url("../images/start_icons/winter_start.png");
     height: 37px;
     width: 37px;
 }
-html.winter-theme .nav-active {
+body.winter-theme .nav-active {
     background:linear-gradient(to bottom,rgba(255, 255, 255, 0.25) 0,rgba(117, 204, 255, 0.2) 20%,rgba(92, 92, 92, 0.2) 40%,rgba(0, 85, 100, 0.3) 40%,rgba(43, 213, 255, 0.9) 100%)!important;
     color:#57cfff;
     transform:scale(1.03);
@@ -1199,7 +1199,7 @@ html.winter-theme .nav-active {
 
 
 
-html.fortnite-theme {
+body.fortnite-theme {
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -1207,22 +1207,22 @@ html.fortnite-theme {
     background-size: 100vw 100vh; 
     background-repeat: no-repeat;
 }
-html.fortnite-theme,
-html.fortnite-theme *{
+body.fortnite-theme,
+body.fortnite-theme *{
     cursor: url("../images/cur_files/fortnite.cur"), auto;
 }
-html.fortnite-theme #vista-taskbar {
+body.fortnite-theme #vista-taskbar {
     background-image: url("../images/taskbar_textures/fortnite_taskbar.PNG");
     background-repeat: repeat-x;   /* Tile horizontally */
     background-size: auto 100%;    /* Match the taskbar height */
     background-position: center;
 }
-html.fortnite-theme #start-button img {
+body.fortnite-theme #start-button img {
     content: url("../images/start_icons/fortnite_start.png");
     height: 37px;
     width: 37px;
 }
-html.fortnite-theme .nav-active {
+body.fortnite-theme .nav-active {
     background:linear-gradient(to bottom,rgba(247, 247, 248, 0.25) 0,rgba(181, 117, 255, 0.2) 20%,rgba(97, 96, 97, 0.2) 40%,rgba(52, 0, 100, 0.3) 40%,rgba(153, 43, 255, 0.9) 100%)!important;
     color:#8957ff;
     transform:scale(1.03);
@@ -1233,7 +1233,7 @@ html.fortnite-theme .nav-active {
 
 
 
-html.halo-theme {
+body.halo-theme {
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -1241,22 +1241,22 @@ html.halo-theme {
     background-size: 100vw 100vh; 
     background-repeat: no-repeat;
 }
-html.halo-theme,
-html.halo-theme *{
+body.halo-theme,
+body.halo-theme *{
     cursor: url("../images/cur_files/halo.cur"), auto;
 }
-html.halo-theme #vista-taskbar {
+body.halo-theme #vista-taskbar {
     background-image: url("../images/taskbar_textures/halob.PNG");
     background-repeat: repeat-x;   /* Tile horizontally */
     background-size: auto 100%;    /* Match the taskbar height */
     background-position: center;
 }
-html.halo-theme #start-button img {
+body.halo-theme #start-button img {
     content: url("../images/start_icons/halo_start.png");
     height: 37px;
     width: 37px;
 }
-html.halo-theme .nav-active {
+body.halo-theme .nav-active {
     background:linear-gradient(to bottom,rgba(243, 245, 243, 0.25) 0,rgba(160, 243, 112, 0.2) 20%,rgba(105, 107, 104, 0.2) 40%,rgba(38, 94, 1, 0.3) 40%,rgba(63, 248, 39, 0.9) 100%)!important;
     color:#65ff57;
     transform:scale(1.03);
@@ -1266,25 +1266,25 @@ html.halo-theme .nav-active {
 
 
 
-html.minecraft-theme {
+body.minecraft-theme {
     background-image: url("../images/wallpapers/minecraft.png");
 }
-html.minecraft-theme,
-html.minecraft-theme *{
+body.minecraft-theme,
+body.minecraft-theme *{
     cursor: url("../images/cur_files/minecraft.cur"), auto;
 }
-html.minecraft-theme #vista-taskbar {
+body.minecraft-theme #vista-taskbar {
     background-image: url("../images/taskbar_textures/minecraft_taskbar.png");
     background-repeat: repeat-x;   /* Tile horizontally */
     background-size: auto 100%;    /* Match the taskbar height */
     background-position: center;
 }
-html.minecraft-theme #start-button img {
+body.minecraft-theme #start-button img {
     content: url("../images/start_icons/minecraft_start.png");
     height: 37px;
     width: 37px;
 }
-html.minecraft-theme .nav-active {
+body.minecraft-theme .nav-active {
     background:linear-gradient(to bottom,rgba(157, 158, 157, 0.25) 0,rgba(83, 128, 58, 0.2) 20%,rgba(63, 65, 63, 0.2) 40%,rgba(24, 59, 1, 0.3) 40%,rgba(30, 126, 17, 0.9) 100%)!important;
     color:#5be44e;
     transform:scale(1.03);
@@ -1724,4 +1724,46 @@ html.minecraft-theme .nav-active {
     height: auto;
 
     margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Filler area to let the <body> span the entire page */
+.filler-area {
+    position: fixed;
+    
+    left: 0;
+    top: 0px;
+    bottom: 0px;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 0px;
+    z-index: -999;
 }
