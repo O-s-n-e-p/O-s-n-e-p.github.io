@@ -120,13 +120,14 @@ class Schedule extends HTMLElement {
                                 
                             </div>
 
-                            <div class="schedule-cell">9 AM</div>
+                            <div class="schedule-cell">8:30 AM</div>
                             <div class="schedule-cell">10 AM</div>
-                            <div class="schedule-cell">11 AM</div>
-                            <div class="schedule-cell">12 PM</div>
-                            <div class="schedule-cell">1 PM</div>
-                            <div class="schedule-cell">2 PM</div>
-                            <div class="schedule-cell">3 PM</div>
+                            <div class="schedule-cell">10:45 AM</div>
+                            <div class="schedule-cell">10:45 - 8:30 PM</div>
+                            <div class="schedule-cell">8:30 PM</div>
+                            <div class="schedule-cell">9 PM</div>
+                            <div class="schedule-cell">10 PM</div>
+                            <div class="schedule-cell">~11:15 PM</div>
 
                         </div>
 
@@ -138,13 +139,34 @@ class Schedule extends HTMLElement {
                                 Commute day
                             </div>
 
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell">Wake<br>Shower<br>Tea<br>Study</div>
+                            <div class="schedule-cell">Break Fast</div>
+                            <div class="schedule-cell">Drive to School</div>
+                            <div class="schedule-cell">At school<br>Run @ forest behind parking lot</div>
+                            <div class="schedule-cell">Eat dinner<br>Brush Teeth</div>
+                            <div class="schedule-cell">Busy work for school</div>
+                            <div class="schedule-cell">STW Daily quest + Mission Alerts</div>
+                            <div class="schedule-cell">Sleep</div>
+
+                        </div>
+
+                        <br>
+
+                        <div class="schedule-row">
+
+                            <div class="day-label">
+                                
+                            </div>
+
+                            <div class="schedule-cell">8:30 AM</div>
+                            <div class="schedule-cell">10 AM</div>
+                            <div class="schedule-cell">10 AM - 3 PM</div>
+                            <div class="schedule-cell">3 - 6 PM</div>
+                            <div class="schedule-cell">6 - Father Arrives</div>
+                            <div class="schedule-cell">7 PM</div>
+                            <div class="schedule-cell">8:30 PM</div>
+                            <div class="schedule-cell">9 - 11 PM</div>
+                            <div class="schedule-cell">~11:15 PM</div>
 
                         </div>
 
@@ -156,35 +178,80 @@ class Schedule extends HTMLElement {
                                 No commute day
                             </div>
 
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell">Wake<br>Shower<br>Tea<br>Study</div>
+                            <div class="schedule-cell">Break Fast<br>Excersice Break</div>
+                            <div class="schedule-cell">Study</div>
+                            <div class="schedule-cell">Lunch<br>Study<br>Basketball w/ lil bro</div>
+                            <div class="schedule-cell">Study</div>
+                            <div class="schedule-cell">Walk w/ Father</div>
+                            <div class="schedule-cell">Mini dinner<br>Brush teeth</div>
+                            <div class="schedule-cell">School busy work<br>STW Daily quest + Mission Alerts</div>
+                            <div class="schedule-cell">Sleep</div>
+                        </div>
+
+                        <br>
+
+
+
+                        <div class="schedule-row">
+
+                            <div class="day-label">
+                                
+                            </div>
+
+                            <div class="schedule-cell">8:30 AM</div>
+                            <div class="schedule-cell">10 AM</div>
+                            <div class="schedule-cell">10 AM - bro stops gaming</div>
+                            <div class="schedule-cell">~1 PM - Lunch Ready</div>
+                            <div class="schedule-cell">~2:30 PM</div>
+                            <div class="schedule-cell">3:30 PM - Father Arrives</div>
+                            <div class="schedule-cell">7:30 PM</div>
+                            <div class="schedule-cell">8:30 PM</div>
+                            <div class="schedule-cell">9 - 11 PM</div>
+                            <div class="schedule-cell">~11:15 PM</div>
 
                         </div>
 
-
                         <!-- saturday -->
                         <div class="schedule-row">
-
                             <div class="day-label">
                                 Saturday
                             </div>
 
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell">Wake<br>Shower<br>Tea<br>Study</div>
+                            <div class="schedule-cell">Break fast<br>Excercise Break</div>
+                            <div class="schedule-cell">Study</div>
+                            <div class="schedule-cell">Play basketball w/ lil bro</div>
+                            <div class="schedule-cell">Eat Lunch</div>
+                            <div class="schedule-cell">Study</div>
+                            <div class="schedule-cell">Walk w/ Father</div>
+                            <div class="schedule-cell">Mini dinner<br>Brush teeth</div>
+                            <div class="schedule-cell">School busy work<br>STW Daily Quest + Mission Alerts</div>
+                            <div class="schedule-cell">Sleep</div>
+                        </div>
+
+                        <br>
+
+
+                        <div class="schedule-row">
+
+                            <div class="day-label">
+                                
+                            </div>
+
+                            <div class="schedule-cell">8:30 AM</div>
+                            <div class="schedule-cell">10 AM</div>
+                            <div class="schedule-cell">10 AM - 12:15 PM</div>
+                            <div class="schedule-cell">12:15 PM</div>
+                            <div class="schedule-cell">12:15 - 7:30 PM</div>
+                            <div class="schedule-cell">7:30 PM (Parents arrive)</div>
+                            <div class="schedule-cell">9 - 11 PM</div>
+                            <div class="schedule-cell">~11:15 PM</div>
 
                         </div>
+
+
+
 
 
                         <!-- sunday -->
@@ -194,13 +261,14 @@ class Schedule extends HTMLElement {
                                 Sunday
                             </div>
 
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
-                            <div class="schedule-cell"></div>
+                            <div class="schedule-cell">Wake<br>Shower<br>Tea<br>Study</div>
+                            <div class="schedule-cell">Break Fast</div>
+                            <div class="schedule-cell">Study</div>
+                            <div class="schedule-cell">Excercise Break (run)</div>
+                            <div class="schedule-cell">Study</div>
+                            <div class="schedule-cell">Eat Dinner<br>Chill</div>
+                            <div class="schedule-cell">School Busy Work<br>STW Daily Quest + Mission Alert</div>
+                            <div class="schedule-cell">Sleep</div>
 
                         </div>
 

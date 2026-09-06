@@ -1434,8 +1434,7 @@ body.minecraft-theme .nav-active {
 
 .schedule-row {
     display: grid;
-
-    grid-template-columns: 100px repeat(8, minmax(60px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
 
     min-height: 55px;
 }
