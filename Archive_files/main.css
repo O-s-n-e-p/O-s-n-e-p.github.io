@@ -1065,6 +1065,17 @@ section h1,
 }
 
 
+.vista-wallpaper-preview {
+    background-image: url("../images/wallpapers/windowsvista_background.png");
+    background-size: cover;
+}
+.vista-mouse-preview {
+    background-image: url("../images/cursor_images/vista_cur.png");
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+}
+
+
 /* Text */
 
 .theme-option strong {
@@ -1298,7 +1309,38 @@ body.minecraft-theme .nav-active {
 
 
 
-
+body.vista-theme {
+    background-image: url("../images/wallpapers/windowsvista_background.png");
+}
+body.vista-theme,
+body.vista-theme *{
+    cursor: url("../images/cur_files/win_vista.cur"), auto;
+}
+body.vista-theme #vista-taskbar {
+    background-image: url("../images/taskbar_textures/vista_taskbar.png");
+    background-repeat: repeat-x;   /* Tile horizontally */
+    background-size: auto 100%;    /* Match the taskbar height */
+    background-position: center;
+}
+body.vista-theme #start-button img {
+    content: url("../images/start_icons/fortnite_start.png");
+    height: 37px;
+    width: 37px;
+}
+body.vista-theme .nav-active {
+    background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.55) 0%,   /* Top bright glassy highlight */
+    rgba(255, 255, 255, 0.20) 25%,  /* Fades into upper window transparency */
+    rgba(74, 146, 186, 0.35) 49%,   /* Default Aero soft blue tone */
+    rgba(34, 107, 148, 0.65) 50%,   /* The sharp middle "reflection line" split */
+    rgba(28, 81, 117, 0.60) 85%,    /* Deep blue lower glass body */
+    rgba(14, 43, 64, 0.75) 100%     /* Darker base grounding the window edge */
+    ) !important;
+    
+    color:#2c2c2c;
+    transform:scale(1.03);
+}
 
 
 

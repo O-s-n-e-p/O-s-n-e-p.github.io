@@ -145,7 +145,7 @@ class Schedule extends HTMLElement {
                             <div class="schedule-cell">At school<br>Run @ forest behind parking lot</div>
                             <div class="schedule-cell">Eat dinner<br>Brush Teeth</div>
                             <div class="schedule-cell">Busy work for school</div>
-                            <div class="schedule-cell">STW Daily quest + Mission Alerts</div>
+                            <div class="schedule-cell">STW Daily quest + Mission Alerts<br>To-do List(s)<br>Osneps Enclave</div>
                             <div class="schedule-cell">Sleep</div>
 
                         </div>
@@ -185,7 +185,7 @@ class Schedule extends HTMLElement {
                             <div class="schedule-cell">Study</div>
                             <div class="schedule-cell">Walk w/ Father</div>
                             <div class="schedule-cell">Mini dinner<br>Brush teeth</div>
-                            <div class="schedule-cell">School busy work<br>STW Daily quest + Mission Alerts</div>
+                            <div class="schedule-cell">School busy work<br>STW Daily quest + Mission Alerts<br>To-do List(s)<br>Osneps Enclave</div>
                             <div class="schedule-cell">Sleep</div>
                         </div>
 
@@ -226,7 +226,7 @@ class Schedule extends HTMLElement {
                             <div class="schedule-cell">Study</div>
                             <div class="schedule-cell">Walk w/ Father</div>
                             <div class="schedule-cell">Mini dinner<br>Brush teeth</div>
-                            <div class="schedule-cell">School busy work<br>STW Daily Quest + Mission Alerts</div>
+                            <div class="schedule-cell">School busy work<br>STW Daily Quest + Mission Alerts<br>To-do List(s)<br>Osneps Enclave</div>
                             <div class="schedule-cell">Sleep</div>
                         </div>
 
@@ -236,7 +236,7 @@ class Schedule extends HTMLElement {
                         <div class="schedule-row">
 
                             <div class="day-label">
-                                
+                               
                             </div>
 
                             <div class="schedule-cell">8:30 AM</div>
@@ -267,7 +267,7 @@ class Schedule extends HTMLElement {
                             <div class="schedule-cell">Excercise Break (run)</div>
                             <div class="schedule-cell">Study</div>
                             <div class="schedule-cell">Eat Dinner<br>Chill</div>
-                            <div class="schedule-cell">School Busy Work<br>STW Daily Quest + Mission Alert</div>
+                            <div class="schedule-cell">School Busy Work<br>STW Daily Quest + Mission Alert<br>To-do List(s)<br>Osneps Enclave</div>
                             <div class="schedule-cell">Sleep</div>
 
                         </div>

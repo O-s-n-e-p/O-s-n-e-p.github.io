@@ -49,6 +49,9 @@ document.addEventListener("click", (event) => {
         else if (theme === "minecraft") {
             document.body.classList.add("minecraft-theme");
         }
+        else if (theme === "vista") {
+            document.body.classList.add("vista-theme");
+        }
         if(oldTheme !== theme) {
             document.body.classList.remove(oldTheme+"-theme");
         }
