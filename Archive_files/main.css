@@ -1182,7 +1182,7 @@ section h1,
 
 
 body.classic-theme {
-    background-image: url("../images/wallpapers/classic.png");
+    background-image: url("../images/wallpapers/classic.png");    
 }
 body.classic-theme,
 body.classic-theme *{
@@ -1805,7 +1805,7 @@ color: #fff;
 
 
 #button-strip {
-    right: 1399px;
+    right: 1499px;
     bottom: 4px;
     position: fixed;
     display: flex;
