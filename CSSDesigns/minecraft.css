@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/wallpapers/minecraft.png");
+}
+body,
+body *{
+    cursor: url("../images/cur_files/minecraft.cur"), auto;
+}
+body #vista-taskbar {
+    background-image: url("../images/taskbar_textures/minecraft_taskbar.png");
+    background-repeat: repeat-x;   /* Tile horizontally */
+    background-size: auto 100%;    /* Match the taskbar height */
+    background-position: center;
+}
+body #start-button img {
+    content: url("../images/start_icons/minecraft_start.png");
+    height: 37px;
+    width: 37px;
+}
+body .nav-active {
+    background:linear-gradient(to bottom,rgba(157, 158, 157, 0.25) 0,rgba(83, 128, 58, 0.2) 20%,rgba(63, 65, 63, 0.2) 40%,rgba(24, 59, 1, 0.3) 40%,rgba(30, 126, 17, 0.9) 100%)!important;
+    color:#5be44e;
+    transform:scale(1.03);
+}
+body #mainHeader{
+    background-image: url("../images/minecraft_banner.png");
+    background-repeat: repeat-x;   /* Tile horizontally */
+    background-size: auto 100%;    /* Match the taskbar height */
+    background-position: center;
+}
+body #mainContent {
+    background:rgba(39,39,39,.5);
+}
+body #navigationMenu  {
+    background-image: url("../images/minecraft_dirt.png");
+    background-repeat: repeat-y;   /* Tile horizontally */
+    background-size: auto 25%;    /* Match the taskbar height */
+    background-position: center;
+}
+body .navbar-titles {
+    background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.20) 25%,
+    rgba(255, 255, 255, 0.12) 60%,
+    rgba(255, 255, 255, 0.25) 100%
+) !important;
+
+color: #fff;
+}

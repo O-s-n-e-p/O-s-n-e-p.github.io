@@ -40,15 +40,6 @@ document.addEventListener("click", (event) => {
         else if (theme === "winter") {
             document.body.classList.add("winter-theme");
         }
-        else if (theme === "fortnite") {
-            document.body.classList.add("fortnite-theme");
-        }
-        else if (theme === "halo") {
-            document.body.classList.add("halo-theme");
-        }
-        else if (theme === "minecraft") {
-            document.body.classList.add("minecraft-theme");
-        }
         else if (theme === "vista") {
             document.body.classList.add("vista-theme");
         }
